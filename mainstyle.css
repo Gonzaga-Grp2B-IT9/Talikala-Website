@@ -1,0 +1,6 @@
+/*
+This external CSS code is linked to the HTML files named index.html, SIP.html, Background.html and MAPEH.html
+*/
+body, p, h1, h2, h3, h4, h5, h6 , a {
+font-family: "Courier New", monospace;
+}

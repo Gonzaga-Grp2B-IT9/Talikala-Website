@@ -1,0 +1,234 @@
+<html>
+<title>BACKGROUND AND SIGNIFICANCE OF THE STUDY - Sanlocan, Vida</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="mainstyle.css"/>
+<style>
+body {
+  background-color: lightblue;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr.rounded {
+  border-top: 5px solid #bbb;
+  border-radius: 5px;
+  border-color: gray;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10%;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+}
+</style>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Bibliography &times;</button>
+  <a href="https://www.addu.edu.ph/blog/2018/04/05/talikala-inc-drs-jess-and-trining-de-la-paz-award/" target="_blank" class="w3-bar-item w3-button">Resource 1</a>
+  <a href="https://www.lenityaustralia.com/davao-talikala" target="_blank" class="w3-bar-item w3-button">Resource 2</a>
+  <a href="https://ph.entranceuniversity.com/talikala-inc-drs-jess-and-trining-de-la-paz-award" target="_blank" class="w3-bar-item w3-button">Resource 3</a>
+    <a href="https://yellow.place/en/talikala-inc-davao-city-philippines" target="_blank" class="w3-bar-item w3-button">Resource 4</a>
+  <a href="https://asksource.info/organisations/talikala-inc" target="_blank" class="w3-bar-item w3-button">Resource 5</a>
+</div>
+
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h5> 
+<body>
+<ul>
+  <li><a href="index.html" >HOME</a></li>
+  <li><a href="SIP.html" >SIP</a></li>
+    <li><a class="active" href="Background.html" >Project Proposal</a></li>
+  <li><a href="MAPEH.html" >MAPEH</a></li>
+</ul>
+
+</body>
+</h5>
+  </div>
+</div>
+<br>
+<br>
+<img src="HEAD.jpeg" alt="Paris" style="width:30%;">
+<br>
+ <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'Night')">Background</button>
+    <button class="w3-bar-item w3-button tablink " onclick="openCity(event,'Paris')">Problem Identification</button>
+    <button class="w3-bar-item w3-button tablink " onclick="openCity(event,'Tokyo')">Proposed Intervention</button>
+     <button class="w3-bar-item w3-button tablink " onclick="openCity(event,'Day')">Significance</button>
+  </div>
+  
+  <div id="Night" class="w3-container w3-border city">
+    <h2>DESCRIPTION </h2>
+    <p>Talikala Inc. is a nongovernmental organization run by women to serve women, where its mission and advocacy is all about helping sexually exploited women. However, we have noticed that Talikala doesn’t get much recognition from the public, which we think is hindering them from achieving their goals. Our project, titled Project L.I.F.E. (Live in Freedom from Exploitation) aims to promote Talikala, their mission and advocacy to local communities and all women victims of sexual exploitation. Additionally, by promoting Talikala, we are also raising public awareness of the issue of sexual exploitation.
+</p>
+  </div>
+
+  <div id="Paris" class="w3-container w3-border city" style="display:none">
+    <h2>Problem Statement</h2>
+    <p>An issue that Talikala, Inc. is facing that needs to be addressed is the lack of awareness people have for the institution. This is a very problematic issue for Talikala as it means that only a limited number of people are aware of their existence and advocacy, which also means that only a limited number of exploited women are reaching out to them and the issue of exploitation and abuse is still happening. The lack of women reaching out to Talikala can hinder them (the institution) from achieving their goal of improving the lives of as many women prostitutes and survivors of prostitution as they can reach. One way that this issue can be addressed is if the institution becomes more popular, and this can be achieved by means that its existence and advocacy are promoted on various online media platforms; for people to be reminded of how alarming the issue of exploitation and abuse is and how beneficial Talikala can be in resolving those issues. 
+</p></p> 
+  </div>
+
+  <div id="Tokyo" class="w3-container w3-border city" style="display:none">
+    <h2>Proposed Project</h2>
+    <p> In order to address this issue we can spread awareness in the Talikala inc. project through social media platforms, posters, and leaflets because doing so it will inform the public of the signs to look out for victims of women prostitutes and this might be able to help women prostitutes to open up more and won’t be scared to reach out for other’s help. The proposed project that was stated can help the partnered institution like was said, spreading awareness because in doing so not only does it help the victims, but it will also help widen the influence of Talikala inc. for them to spread caution to avoid more victims of women's prostitution. The project name of our project is LIFE (Live in Freedom from Exploitation). The project aims to promote our partner institution, Talikala Inc., its mission and advocacy to local communities and all women victims of sexual exploitation. The main goal of the project is to successfully promote Talikala Inc. and to make them well known. Promoting the institution can help more women, improve their institution, aid employee engagement, boost employee morale, and can ultimately improve productivity. The specific objectives of our project include: creating a fully functioning and clean website that can successfully promote Talikala Inc, to be able to spread said website through social media, to be able to create posters that can successfully promote Talikala Inc., to be able to put these posters in poor areas or areas with many people and to be able to create leaflets that can successfully promote Talikala Inc.
+	</p>
+  </div>
+</div>
+   <div id="Day" class="w3-container w3-border city">
+    <h2>Significance of the Project</h2>
+    <p>If our project is successfully implemented, it will convince the people in Talikala that they can continue to uphold their advocacy much more efficiently. Furthermore, it will allow them to enlighten the public on the issue of sexual exploitation, and potentially change the public’s perception of the issue. Through our project, Talikala can convince the public that sexual exploitation and the elements around it are much more complicated that it seems, and that it is far from being a one-sided discussion. As a result of the project, the public will realize how problematic the issue is, and how important Talikala can be in resolving the issue.
+</p>
+  </div>
+<hr class="rounded">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Alyssa.jpg" alt="Jane" style="width:50%">
+      <div class="container">
+        <h2>Alyssa Vida</h2>
+        <p class="title">Student (Web designer)</p>
+        <p>Alyssa Vida was born in Davao City, together with her family of 6. Along with her school work, she’s also a part of the Red Cross Youth (RCY) club. She’s planning to take stem, specifically science. As she wanted to be an internal medicine doctor in the future. She’s a girl who has many big dreams she wanna achieve while enjoying her teen life by doing her hobbies and having fun with her friends. </p>
+        <p>aevida@addu.edu.ph</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Baraq.jpg" alt="Mike" style="width:50%">
+      <div class="container">
+        <h2>Baraq Sanlocan</h2>
+        <p class="title">Student (Web designer)</p>
+        <p>This is Baraq M. Sanlocan he grew up in Cotabato city from birth to 12 years old. He went to school at the age of 4 in the school of St. Benedict college for kindergarten and at the age of 6, he switched schools at Cotabato Sacred Heart Learning Center.  After he graduated from elementary school he went to Davao because of the lockdown. His dream is to become an engineer. He likes sports such as badminton and likes to play online games, he also likes cats, and his interests are more on the topic of space.</p>
+        <p>bmsanlocan@addu.edu.ph</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+
+</script>
+
+</body>
+</html>
